@@ -1,0 +1,3 @@
+h1. Vocab List Formatter
+
+p. For my wife to radomize, alphabetive, and/or number lists of Latin vocabulary.
