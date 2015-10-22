@@ -5,8 +5,8 @@
 <%= render "form" %>
 
 <div class="result">
-  <% if Formatter.all.length > 1 %>
-    <% Formatter.last.format.each do |word| %>
+  <% if @lastest_list %>
+    <% @lastest_list.format.each do |word| %>
       <%= word %><br>
     <% end %>
   <% end %>

@@ -2,6 +2,7 @@ class FormattersController < ApplicationController
 
   def new
     @formatter = Formatter.new
+    @lastest_list = Formatter.last
   end
 
   def create
