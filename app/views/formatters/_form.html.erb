@@ -1,0 +1,17 @@
+<%= form_for(@formatter) do |f| %>
+
+  <div class="field">
+    <%= f.label :content %><br>
+    <%= f.text_area :content, cols: 80, rows: 30 %><br>
+    <%= f.radio_button :style, 'alpha' %>
+    <%= f.label :style, 'Alphabetize' %>
+    <%= f.radio_button :style, 'random' %>
+    <%= f.label :style, 'Randomize' %>
+    <%= f.check_box :numbered %>Numbered?
+  </div>
+  
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+
+<% end %>
